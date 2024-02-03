@@ -29,7 +29,7 @@ cd customcheckbox
 Feel free to launch the application with your favourite live server plugin.
 
 <div align="center">
-    <a href="https://dave86dev.github.io/customcheckb/"><strong>PRODUCTION LINK</strong></a> 
+    <a href="https://dave86dev.github.io/customcheckb/" target="_blank"><strong>PRODUCTION LINK</strong></a> 
 </div>
 
 ## Functionality
