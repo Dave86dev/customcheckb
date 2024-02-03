@@ -1,6 +1,6 @@
 # Custom Checkbox - Accesibility
 
-This frontend application leverages plain HTML, JS, and CSS to craft a custom checkbox that maintains the accessibility features of a native checkbox, including keyboard interactivity. The implementation showcases an exclusive display of the custom checkbox, which retains all the functionality and accessibility of the native checkbox, even when the latter is hidden, all without using JS, only HTML5 and CSS3.
+This frontend application leverages plain HTML and CSS to craft a custom checkbox that maintains the accessibility features of a native checkbox, including keyboard interactivity. The implementation showcases an exclusive display of the custom checkbox, which retains all the functionality and accessibility of the native checkbox, even when the latter is hidden, all without using JS, only HTML5 and CSS3.
 
 ## Table of Contents 
 
