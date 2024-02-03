@@ -1,0 +1,60 @@
+#container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#native:focus {
+  /* 
+    this changes the outline border to blue
+    once the native checkbox is on focus
+  */
+  outline-color: blue;
+}
+
+.native-hide {
+  /* 
+    visually hides native checkbox but 
+    still accesible regarding screen readers 
+  */
+  position: absolute;
+  left: -625em;
+  width: 0.1em;
+  height: 0.1em;
+  overflow: hidden;
+}
+
+.checkbox-custom {
+  margin-top: 1em;
+  width: 2em;
+  height: 2em;
+  background-color: white;
+  border: 0.1em solid black;
+  border-radius: 0.2em;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-custom svg {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2em;
+  height: 2em;
+}
+
+#native:focus-visible ~ .checkbox-custom {
+  outline: 0.1em solid white;
+  box-shadow: 0 0 0 0.2em blue;
+}
+
+#native:checked ~ .checkbox-custom svg {
+  /*
+    Linked behavior, once native checkbox is checked,
+    our custom checkbox appears
+  */
+  display: block;
+}
